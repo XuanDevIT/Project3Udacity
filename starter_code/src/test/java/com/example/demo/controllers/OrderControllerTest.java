@@ -93,7 +93,6 @@ public class OrderControllerTest {
 		items.add(item);
 
 		cart.setItems(items);
-		//
 		return cart;
 	}
 }

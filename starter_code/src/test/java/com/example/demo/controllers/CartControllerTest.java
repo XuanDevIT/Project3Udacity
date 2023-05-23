@@ -133,9 +133,9 @@ public class CartControllerTest {
 	private Item createItem() {
 		Item item = new Item();
 		item.setId(1L);
-		item.setName("Item-1");
+		item.setName("Item");
 		item.setPrice(BigDecimal.ONE);
-		item.setDescription("Item-1 description");
+		item.setDescription("Item description");
 		return item;
 	}
 }
