@@ -118,8 +118,8 @@ public class CartControllerTest {
 	private User createUser() {
 		User user = new User();
 		user.setId(1L);
-		user.setUsername("user1");
-		user.setPassword("password1");
+		user.setUsername("user");
+		user.setPassword("password");
 		return user;
 	}
 	

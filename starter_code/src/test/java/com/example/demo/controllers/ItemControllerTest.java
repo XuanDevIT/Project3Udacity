@@ -42,15 +42,15 @@ public class ItemControllerTest {
 	
 	@Test
 	void getItemsByName_EmptyList() {
-		Mockito.doReturn(new ArrayList<Item>()).when(itemRepository).findByName("hi");
-		ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("hi");
+		Mockito.doReturn(new ArrayList<Item>()).when(itemRepository).findByName("item");
+		ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("item");
 		assertEquals(HttpStatus.NOT_FOUND, responseEntity.getStatusCode());
 	}
 	
 	@Test
 	void getItemsByName_Null() {
-		Mockito.doReturn(null).when(itemRepository).findByName("hi");
-		ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("hi");
+		Mockito.doReturn(null).when(itemRepository).findByName("item");
+		ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("item");
 		assertEquals(HttpStatus.NOT_FOUND, responseEntity.getStatusCode());
 	}
 	
@@ -59,12 +59,12 @@ public class ItemControllerTest {
 		List<Item> items = new ArrayList<>();
 		Item item = new Item();
 		item.setId(1L);
-		item.setName("Item-1");
+		item.setName("item");
 		item.setPrice(BigDecimal.ONE);
-		item.setDescription("Item-1 description");
+		item.setDescription("item description");
 		items.add(item);
-		Mockito.doReturn(items).when(itemRepository).findByName("hi");
-		ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("hi");
+		Mockito.doReturn(items).when(itemRepository).findByName("item");
+		ResponseEntity<List<Item>> responseEntity = itemController.getItemsByName("item");
 		assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
 	}
 }

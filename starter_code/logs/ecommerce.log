@@ -88,3 +88,39 @@
 2023-05-23 16:04:15,631 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
 2023-05-23 16:04:15,632 INFO c.e.d.c.OrderController [main] Get orders by username
 2023-05-23 16:04:15,633 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 16:41:36,068 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 68284 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 16:41:36,075 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 16:41:36,076 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 16:41:42,315 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.512 seconds (JVM running for 8.793)
+2023-05-23 16:41:48,714 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:41:54,061 INFO c.e.d.c.UserController [main] Create user request successes
+2023-05-23 16:41:54,109 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:41:54,110 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:41:54,115 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:41:54,116 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:41:54,406 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:41:54,408 INFO c.e.d.c.OrderController [main] Submit order successfully
+2023-05-23 16:41:54,410 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:41:54,411 INFO c.e.d.c.OrderController [main] Get orders successfully
+2023-05-23 16:41:54,413 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:41:54,413 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 16:41:54,415 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:41:54,415 ERROR c.e.d.c.OrderController [main] Not found any user has username [Username]
+2023-05-23 16:42:43,174 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 68375 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 16:42:43,183 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 16:42:43,184 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 16:42:49,299 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.404 seconds (JVM running for 8.395)
+2023-05-23 16:42:49,749 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:42:49,753 INFO c.e.d.c.UserController [main] Create user request successes
+2023-05-23 16:42:49,768 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:42:49,769 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:42:49,774 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:42:49,774 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:42:49,961 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:42:49,961 INFO c.e.d.c.OrderController [main] Submit order successfully
+2023-05-23 16:42:49,964 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:42:49,965 INFO c.e.d.c.OrderController [main] Get orders successfully
+2023-05-23 16:42:49,970 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:42:49,970 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 16:42:49,971 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:42:49,972 ERROR c.e.d.c.OrderController [main] Not found any user has username [Username]

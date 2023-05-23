@@ -46,25 +46,25 @@ public class OrderControllerTest {
 		Cart cart = createCart();
 		user.setCart(cart);
 
-		Mockito.doReturn(user).when(userRepository).findByUsername("invalidUsername");
-		ResponseEntity<UserOrder> response = orderController.submit("invalidUsername");
+		Mockito.doReturn(user).when(userRepository).findByUsername("Username");
+		ResponseEntity<UserOrder> response = orderController.submit("Username");
 		//
 		assertEquals(HttpStatus.OK, response.getStatusCode());
 	}
 
 	@Test
 	void getOrdersForUser_Success() {
-		Mockito.doReturn(new User()).when(userRepository).findByUsername("invalidUsername");
+		Mockito.doReturn(new User()).when(userRepository).findByUsername("Username");
 		Mockito.doReturn(new ArrayList<User>()).when(orderRepository).findByUser(any());
-		ResponseEntity<List<UserOrder>> response = orderController.getOrdersForUser("invalidUsername");
+		ResponseEntity<List<UserOrder>> response = orderController.getOrdersForUser("Username");
 		//
 		assertEquals(HttpStatus.OK, response.getStatusCode());
 	}
 
 	@Test
 	void getOrdersForUser_NotFoundUser() {
-		Mockito.doReturn(null).when(userRepository).findByUsername("invalidUsername");
-		ResponseEntity<List<UserOrder>> response = orderController.getOrdersForUser("invalidUsername");
+		Mockito.doReturn(null).when(userRepository).findByUsername("Username");
+		ResponseEntity<List<UserOrder>> response = orderController.getOrdersForUser("Username");
 		//
 		assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
 	}
@@ -72,8 +72,8 @@ public class OrderControllerTest {
 	private User createUser() {
 		User user = new User();
 		user.setId(1L);
-		user.setUsername("user1");
-		user.setPassword("password1");
+		user.setUsername("user");
+		user.setPassword("password");
 		
 		return user;
 	}
@@ -85,9 +85,9 @@ public class OrderControllerTest {
 
 		Item item = new Item();
 		item.setId(1L);
-		item.setName("Item-1");
+		item.setName("Item");
 		item.setPrice(BigDecimal.ONE);
-		item.setDescription("Item-1 description");
+		item.setDescription("Item description");
 
 		List<Item> items = new ArrayList<>();
 		items.add(item);
