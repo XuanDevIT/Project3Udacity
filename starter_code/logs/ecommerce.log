@@ -1,0 +1,90 @@
+2023-05-23 15:31:40,994 INFO c.e.d.SareetaApplication [main] ECommerce Application Started
+2023-05-23 15:31:41,484 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Xuans-MacBook-Air.local with PID 62606 (/Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code/target/classes started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:31:41,485 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:31:41,487 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:31:47,712 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-05-23 15:31:48,894 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 7.819 seconds (JVM running for 9.43)
+2023-05-23 15:33:42,296 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 62807 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:33:42,303 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:33:42,306 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:33:50,520 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 8.494 seconds (JVM running for 11.383)
+2023-05-23 15:38:48,697 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 63207 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:38:48,702 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:38:48,703 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:38:54,838 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.413 seconds (JVM running for 8.923)
+2023-05-23 15:41:28,799 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 63430 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:41:28,805 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:41:28,806 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:41:35,020 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.498 seconds (JVM running for 8.671)
+2023-05-23 15:45:19,563 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 63777 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:45:19,568 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:45:19,570 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:45:26,076 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.802 seconds (JVM running for 8.941)
+2023-05-23 15:49:53,024 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 64152 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:49:53,029 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:49:53,031 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:49:59,013 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.254 seconds (JVM running for 8.41)
+2023-05-23 15:51:00,853 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 64274 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:51:00,860 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:51:00,862 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:51:06,937 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.356 seconds (JVM running for 8.333)
+2023-05-23 15:51:07,458 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 15:51:07,493 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 15:51:07,493 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 15:51:07,497 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 15:51:07,497 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 15:51:07,726 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 15:51:07,727 INFO c.e.d.c.OrderController [main] Submit order successfully
+2023-05-23 15:51:07,729 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 15:51:07,729 INFO c.e.d.c.OrderController [main] Get orders successfully
+2023-05-23 15:51:07,731 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 15:51:07,732 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 15:51:07,735 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 15:51:07,735 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 15:58:30,510 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 64845 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 15:58:30,520 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 15:58:30,523 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 15:58:39,301 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 9.186 seconds (JVM running for 12.039)
+2023-05-23 16:00:01,938 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 64972 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 16:00:01,944 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 16:00:01,946 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 16:00:08,342 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.674 seconds (JVM running for 9.249)
+2023-05-23 16:00:08,850 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:00:08,884 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:00:08,884 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:00:08,887 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:00:08,888 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:00:09,143 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:00:09,143 INFO c.e.d.c.OrderController [main] Submit order successfully
+2023-05-23 16:00:09,151 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:00:09,151 INFO c.e.d.c.OrderController [main] Get orders successfully
+2023-05-23 16:00:09,153 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:00:09,155 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 16:00:09,156 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:00:09,157 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 16:00:39,942 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:01:11,505 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:01:48,914 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:01:48,930 INFO c.e.d.c.UserController [main] Create user request successes
+2023-05-23 16:02:49,820 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 65269 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 16:02:49,828 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 16:02:49,829 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 16:02:56,035 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.616 seconds (JVM running for 9.704)
+2023-05-23 16:04:08,730 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Xuans-MacBook-Air.local with PID 65410 (started by xuanle in /Users/xuanle/Tech/udacity/project4/MyWork/nd035-c4-Security-and-DevOps/starter_code)
+2023-05-23 16:04:08,736 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-05-23 16:04:08,738 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-05-23 16:04:14,866 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 6.563 seconds (JVM running for 9.474)
+2023-05-23 16:04:15,396 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:04:15,400 INFO c.e.d.c.UserController [main] Create user request successes
+2023-05-23 16:04:15,416 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:04:15,417 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:04:15,422 INFO c.e.d.c.UserController [main] Create user request
+2023-05-23 16:04:15,422 ERROR c.e.d.c.UserController [main] Create user request failures
+2023-05-23 16:04:15,622 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:04:15,623 INFO c.e.d.c.OrderController [main] Submit order successfully
+2023-05-23 16:04:15,627 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:04:15,628 INFO c.e.d.c.OrderController [main] Get orders successfully
+2023-05-23 16:04:15,631 INFO c.e.d.c.OrderController [main] Submit order by username
+2023-05-23 16:04:15,631 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]
+2023-05-23 16:04:15,632 INFO c.e.d.c.OrderController [main] Get orders by username
+2023-05-23 16:04:15,633 ERROR c.e.d.c.OrderController [main] Not found any user has username [invalidUsername]

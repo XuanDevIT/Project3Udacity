@@ -53,7 +53,14 @@ public class UserController {
 		Cart cart = new Cart();
 		cartRepository.save(cart);
 		user.setCart(cart);
-		//todo
+		if (createUserRequest.getPassword().length() < 7 ||
+				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
+			log.error("Create user request failures");
+			return ResponseEntity.badRequest().build();
+		}
+
+		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
+
 		userRepository.save(user);
 		log.info("Create user request successes");
 		return ResponseEntity.ok(user);
